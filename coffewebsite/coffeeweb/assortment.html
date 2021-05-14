@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+    <link rel="stylesheet" href="css/style.min.css">
+  
+    <title>Vizitka</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <header class="header">
+    <div class="header__top top-header">
+      <div class="top-header _container">
+        
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>     
+            </div>  
+        
+       
+            <div class="mob">
+   <nav class="mob__menu mob-menu">
+        <ul class="mob-menu__list list">
+            <li class="list__link link"><a class="link__item link-item mobmain" href="index.html">Главная</a>
+                <ul class="link-item__submenu submenu">
+                    <li><a class="submenu__item submobmain" href="index.html">Главная</a></li>
+                </ul>
+            </li>
+            <li class="list__link link"><a class="link__item link-item mobabout" href="about.html">О нас</a>
+                <ul class="link-item__submenu submenu">
+                    <li><a class="submenu__item submobabout" href="about.html">О нас</a></li>
+                </ul>
+            </li>
+            <li class="list__link link"><a class="link__item link-item mobtypes" href="coffeetypes.html">Виды кофе</a>
+                <ul class="link-item__submenu submenu">
+                    <li><a class="submenu__item coffeemakiato" href="coffeetypes.html">Макиато</a></li>
+                    <li><a class="submenu__item coffeebombon" href="coffeetypes.html">Бомбон</a></li>
+                    <li><a class="submenu__item coffeemelanzh" href="coffeetypes.html">Меланж</a>
+                </ul>
+             </li>
+            <li class="list__link link"><a class="link__item link-item mobassort" href="assortment.html">Ассортимент</a>
+                <ul class="link-item__submenu submenu">
+                    <li><a class="submenu__item submobassort" href="assortment.html">Ассортимент</a></li>
+                </ul>
+            </li>
+            <li class="list__link link"><a class="link__item link-item mobcont" href="contact.html">Контакты</a>
+                <ul class="link-item__submenu submenu">
+                    <li><a class="submenu__item submobcont" href="contact.html">Контакты</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="callback">
+        <h5 class="callback__title bkcall">Обратный звонок</h5>
+
+           <div class="callback__question bt"><a href="#">Задать вопрос</a></div>
+    </div>
+</div>
+            <div class="top-header__column">
+                <a class="top-header__logo" href="index.html"><img src="img/menu/logo.jpg" alt="logo"></a>
+            </div>
+            
+            <div class="top-header__column">
+                <nav class="top-header__menu menu">
+                        <ul class="menu__list">
+                            <li><a class="menu__link cafe" href="cafe.html" >Наше кафе</a></li>
+                            <li><a class="menu__link about" href="about.html" >О нас</a></li>
+                            <li><a class="menu__link types" href="coffeetypes.html" >Виды кофе</a></li>
+                            <li><a class="menu__link assort" href="assortment.html" >Ассортимент</a></li>
+                            <li><a class="menu__link cont" href="contact.html" >Контакты</a></li>
+                        </ul>
+                </nav>
+            </div>
+
+            <div class="top-header__column">
+                <div class="top-header__lang lang">
+                    <a class="lang__item" href="ua/index.html" language ='ukrainian'> <img src="img/menu/ukr.jpg" alt="ukr"></a>
+                    <a class="lang__item" href="index.html" ><img src="img/menu/rus.jpg" alt="rus"></a>
+                    <a class="lang__item" href="en/index.html" language ='en' ><img src="img/menu/usa.jpg" alt="en"></a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</header>
+
+    <div class="question__popup popup">
+
+    <div class="bg"></div>
+
+    <div class="popup__block">
+        <div class="popup__inner inner-popup">
+
+            <div class="inner-popup__close"></div>
+
+            <h4 class="inner-popup__title quest">Задать вопрос</h4>
+            <p class="inner-popup__text qtext">Вы можете задать нам вопрос, который вас интересует.
+                <br>
+            Мы ответим вам в ближайшее время.</p>
+
+                <div class="inner-popup__form form-popup">
+                    	
+	                <form method="post" target="rframe" enctype="multipart/form-data" id="qform" class="contact-form" action="">
+			            <input type="hidden" value="0" name="siteuser" />
+		                <textarea class="form-popup__question"  cols="20" rows="10" name="f35" placeholder="Ваш вопрос" value=""></textarea>
+                        <input class="form-popup__email" type="email"  name=""placeholder="Ваш Email" value=""/>
+                        <input class="form-popup__send"  type="submit" value="Отправить"  />
+                    </form>
+	            </div>
+        </div>
+    </div>
+</div>
+    <div class="assortment">
+      <div class="assortment__aside">
+        <aside class="sidebar">
+<nav class="aside__menu aside-menu">
+    <ul class="aside-menu__list">
+        <li><a class="aside-menu__link news" href="index.html">Новости</a></li>
+        <li><a class="aside-menu__link abouttitl" href="about.html">О нас</a></li>
+        <li><a class="aside-menu__link typestitl" href="coffeetypes.html">Виды кофе</a></li>
+        <li><a class="aside-menu__link assorttitl" href="assortment.html">Ассортимент</a></li>
+        <li><a class="aside-menu__link contacttitl" href="contact.html">Контакты</a></li>
+    </ul>
+</nav>
+<div class="callback">
+    <h5 class="callback__title bkcall">Обратный звонок</h5>
+    <div class="callback__question bt"><a href="#">Задать вопрос</a></div>
+</div>
+
+<form class="form-choice">
+ <!-- Widget -->
+ <div class="widget">
+    <div class="widget__title">
+        Виды кофе
+    </div>
+    <div class="widget__body">
+
+        <label class="radio">
+            <input type="radio" class="radio__real" name="term">
+            <span class="radio__fake"></span>
+            <span class="radio__title">Арабика</span>
+        </label>
+
+        <label class="radio">
+            <input type="radio" class="radio__real" name="term">
+            <span class="radio__fake"></span>
+            <span class="radio__title">Робуста</span>
+        </label>
+
+        <label class="radio">
+            <input type="radio" class="radio__real" name="term">
+            <span class="radio__fake"></span>
+            <span class="radio__title">Арабика</span>
+        </label>
+
+        <label class="radio">
+            <input type="radio" class="radio__real" name="term">
+            <span class="radio__fake"></span>
+            <span class="radio__title">Робуста</span>
+        </label>
+
+    </div>
+</div>
+<!-- // Widget -->
+
+<!-- Widget -->
+<div class="widget">
+    <div class="widget__title">
+        Виды кофейных напитков
+    </div>
+    <div class="widget__body">
+
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__real">
+            <span class="checkbox__fake"></span>
+            <span class="checkbox__title">Эспрессо</span>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__real">
+            <span class="checkbox__fake"></span>
+            <span class="checkbox__title">Капучино</span>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__real" >
+            <span class="checkbox__fake"></span>
+            <span class="checkbox__title">Американо</span>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__real">
+            <span class="checkbox__fake"></span>
+            <span class="checkbox__title">Латте</span>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__real">
+            <span class="checkbox__fake"></span>
+            <span class="checkbox__title">Фраппе</span>
+        </label>
+
+
+        <label class="checkbox checkbox-hidden">
+            <input type="checkbox" class="checkbox__real">
+            <span class="checkbox__fake"></span>
+            <span class="checkbox__title">Кафе бомбон</span>
+        </label>
+        <label class="checkbox checkbox-hidden">
+            <input type="checkbox" class="checkbox__real">
+            <span class="checkbox__fake"></span>
+            <span class="checkbox__title">Меланж</span>
+        </label>
+        <label class="checkbox checkbox-hidden">
+            <input type="checkbox" class="checkbox__real" >
+            <span class="checkbox__fake"></span>
+            <span class="checkbox__title">Фраппе</span>
+        </label>
+
+        <button data-options="hidden" class="widget__btn-show-hidden">Показать ещё</button>
+
+    </div>
+</div>
+<!-- // Widget -->
+
+  <!-- Widget -->
+  <div class="widget">
+    <div class="widget__body">
+        <button class="form-btn form-btn-submit">Применить фильтры</button>
+        <button type="reset" class="form-btn">
+            <img src="img/aside/cancel.svg" alt="Сбросить фильтры">
+            <span>Сбросить фильтры</span>
+        </button>
+    </div>
+</div>
+<!-- // Widget -->
+</form>
+</aside>
+      </div>
+    <div class="assortment__page page-assortment">
+        <h2 class="page-assortment__title"><img src="img/about/icon.png">Ассортимент</h2>
+        <div class="page-assortment__content content-assortment">
+
+        <div class="content-assortment__col col-assortment">
+            <div class="col-assortment__content">
+            <div class="col-assortment__img"><img src="img/assortment/arabica.jpg" alt="coffee"></div>
+            <p class="col-assortment__text">
+              В арабике много липидов и сахаров, которые делают вкус интенсивным и кислотным. 
+              В конкретном сорте арабики из конкретного региона можно почувствовать сладость ягод, кислотность цитрусовых, аромат цветов и орехов.
+            </p>
+        </div>
+    </div>
+        <div class="content-assortment__col col-assortment">
+            <div class="col-assortment__content">
+            <div class="col-assortment__img"><img src="img/assortment/robusta.jpg" alt="coffee"></div>
+            <p class="col-assortment__text">
+                В робусте больше кофеина и хлорогеновой кислоты и мало липидов и сахаров. Это делает робусту хорошим энергетиком, но кофеин также 
+                придаёт кофе горечь и тяжёлый аромат.
+                Вкус робусты — терпкий и плоский. Добиться от него оттенков, как у арабики просто невозможно.  
+            </p>
+        </div>
+    </div>
+        <div class="content-assortment_col col-assortment">
+            <div class="col-assortment__content">
+            <div class="col-assortment__img"><img src="img/assortment/arabica.jpg" alt="coffee"></div>
+            <p class="col-assortment__text">
+              В арабике много липидов и сахаров, которые делают вкус интенсивным и кислотным. 
+              В конкретном сорте арабики из конкретного региона можно почувствовать сладость ягод, кислотность цитрусовых, аромат цветов и орехов.
+            </p>
+        </div>
+    </div>
+        <div class="content-assortment__col col-assortment">
+            <div class="col-assortment__content">
+          <div class="col-assortment__img"><img src="img/assortment/robusta.jpg" alt="coffee"></div>
+          <p class="col-assortment__text">
+            В робусте больше кофеина и хлорогеновой кислоты и мало липидов и сахаров. Это делает робусту хорошим энергетиком, но кофеин также 
+            придаёт кофе горечь и тяжёлый аромат.
+            Вкус робусты — терпкий и плоский. Добиться от него оттенков, как у арабики просто невозможно.  
+          </p>
+        </div>
+    </div>
+    </div>
+    <footer class="anotherfooter">
+    <div class="anotherfooter__top top-anotherfooter">
+       <div class="top-anotherfooter container">
+           <div class="top-anotherfooter__column">
+               <div class="top-anotherfooter__social social-items">
+                   <a class="social-items__item" href=""><i class="fab fa-instagram"></i></a>
+                   <a class="social-items__item" href=""><i class="fab fa-facebook-f"></i></a>
+                   <a class="social-items__item" href=""><i class="fab fa-twitter"></i></a>
+               </div>
+           </div>
+           <div class="top-anotherfooter__column">
+            <form action="php/search.php" method="POST">
+                <input type="text" name ="search" id="search" placeholder="Поиск по сайту">
+               
+                <button name="search_btn"> <div class="search-icon"></div></button>
+            </form>
+           </div>
+           <div class="top-anotherfooter__column">
+               <div class="top-anotherfooter__copyright copright">Все права защищены  © 2020 «Coffee»</div>
+           </div>
+       </div>
+</div>
+    <div class="anotherfooter_bottom bottom-anotherfooter">
+       <div class="bottom-anotherfooter container">
+       <div class="bottom-anotherfooter_column">
+           <div class="bottom-footer__logo"><img src="img/menu/logo.jpg" alt="logo"></div>
+       </div>
+       <div class="bottom-anotherfooter__column">
+           <div class="bottom-anotherfooter__brands brands-anotherfooter">
+               <ul class="brands-anotherfooter__list">
+                   <li class="brands-anotherfooter__link"><img src="img/footer/img1.jpg" alt=""></li>
+                   <li class="brands-anotherfooter__link"><img src="img/footer/img2.jpg" alt=""></li>
+                   <li class="brands-anotherfooter__link"><img src="img/footer/img3.jpg" alt=""></li>
+                   <li class="brands-anotherfooter__link"><img src="img/footer/img4.jpg" alt=""></li>
+                   <li class="brands-anotherfooter__link"><img src="img/footer/img5.jpg" alt=""></li>
+               </ul>
+           </div>
+       </div>
+   </div>
+    </div>
+</footer>
+  </div>
+</div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>
